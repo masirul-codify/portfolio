@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar area */
+.bg-image{
+background-image: url(images/hero-bg.jpg);
+width: 100%;
+height: 600px;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+.opacity{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(3, 0, 0);
+    opacity: 0.6 !important;
+    position: absolute;
+}
+
+nav ul a:hover{
+    background-color: red !important;
+    color: white !important;
+    border: 2px solid black !important;
+    padding: 5px !important;
+}
+
+
+/* hero area */
+.button{
+    padding: 8px 30px!important;
+    background-color: rgb(3, 0, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-color: rgb(2, 0, 0);
+    color: rgb(235, 217, 217);
+    border: 3px solid rgb(236, 8, 8);
+}
+
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 250px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.6;
+    position:absolute;
+}
+
+
+/* team */
+
+
+
+/* ====== media query  ======== */
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    
+/* navbar area */
+.bg-image{
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+    position:absolute;
+}
+    
+/* portfolio */
+    .category{
+        font-size: 12px !important;
+    }
+    .button{
+        padding: 8px 20px!important;
+        background-color: rgb(3, 0, 0);
+        color: white;
+        border: 2px solid white;
+        border-radius: 30px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+        
+/* navbar area */
+.bg-image{
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+    position:absolute;
+}
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+        
+/* navbar area */
+.bg-image{
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {.bg-image{
+
+    background-image: url(images/hero-bg.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.6 !important;
+        position: absolute;
+    }
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 250px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.6;
+    position:absolute;
+}
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+    
+/* navbar area */
+.bg-image{
+background-image: url(images/hero-bg.jpg);
+width: 100%;
+height: 600px;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+.opacity{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(3, 0, 0);
+    opacity: 0.6 !important;
+    position: absolute;
+}
+
+    /* service start */
+    .servicebg-image{
+        width: 100%;
+        height: 250px;
+        position:relative;
+        background-image: url(images/call-to-action-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .serviceopacity{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 0.6;
+        position:absolute;
+    }
+} 

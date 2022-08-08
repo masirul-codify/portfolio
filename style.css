@@ -1,0 +1,317 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin:  0px!important;
+    padding: 0px;
+    border:  0px!important;
+    font-size: 100%;
+    font: inherit;
+  }
+
+/* navbar area */
+.bg-image{
+background-image: url(images/portfolio/cover.png);
+width: 100%;
+height: 600px;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+.opacity{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(3, 0, 0);
+    opacity: .6 !important;
+    position: absolute;
+}
+
+nav ul a:hover{
+    background-color: red !important;
+    color: white !important;
+    border: 2px solid black !important;
+    padding: 5px !important;
+}
+
+
+/* hero area */
+.button{
+    padding: 8px 30px!important;
+    background-color: rgb(3, 0, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-color: rgb(2, 0, 0);
+    color: rgb(235, 217, 217);
+    border: 3px solid rgb(236, 8, 8);
+}
+
+/* secvices start*/
+.card-body:hover{
+    background-color: brown!important;
+    color:black !important;
+
+}
+
+.bg-service{
+    background-color: rgb(255, 249, 242);
+}
+
+/* services end */
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 250px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.9;
+    position:absolute;
+}
+
+
+/* team */
+
+
+
+/* ====== media query  ======== */
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    
+    /* topbar */
+.info{
+    margin-top: 5px !important;
+    font-size:11px !important;
+}
+.infocontact{
+    margin-top: 5px !important;
+    font-size:10px !important;
+}
+.infocontact1{
+    margin-top: 5px !important;
+    font-size:12px !important;
+}
+.infocontact2{
+    margin-top: 5px !important;
+    font-size:12px !important;
+}
+
+
+/* navbar area */
+.bg-image{
+    background-image: url(images/portfolio/cover.png);
+    width: 100%;
+    height: 1600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1600px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.9 !important;
+        position: absolute;
+    }
+    
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.9;
+    position:absolute;
+}
+    
+/* portfolio */
+    .category{
+        font-size: 12px !important;
+    }
+    .button{
+        padding: 8px 20px!important;
+        background-color: rgb(3, 0, 0);
+        color: white;
+        border: 2px solid white;
+        border-radius: 30px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+        
+/* navbar area */
+.bg-image{
+    background-image: url(images/portfolio/cover.png);
+    width: 100%;
+    height: 1650px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1650px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.9 !important;
+        position: absolute;
+    }
+    
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.9;
+    position:absolute;
+}
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+        
+/* navbar area */
+.bg-image{
+    background-image: url(images/portfolio/cover.png);
+    width: 100%;
+    height: 1750px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 1750px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.9 !important;
+        position: absolute;
+    }
+    
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) 
+ {.bg-image{
+
+    background-image: url(images/portfolio/cover.png);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    .opacity{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(3, 0, 0);
+        opacity: 0.9 !important;
+        position: absolute;
+    }
+    
+/* service start */
+.servicebg-image{
+    width: 100%;
+    height: 250px;
+    position:relative;
+    background-image: url(images/call-to-action-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.serviceopacity{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.9;
+    position:absolute;
+}
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+    
+/* navbar area */
+.bg-image{
+background-image: url(images/portfolio/cover.png);
+width: 100%;
+height: 600px;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+.opacity{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    opacity: 0.9 !important;
+    position: absolute;
+}
+
+    /* service start */
+    .servicebg-image{
+        width: 100%;
+        height: 250px;
+        position:relative;
+        background-image: url(images/call-to-action-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .serviceopacity{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        opacity: 1;
+        position:absolute;
+    }
+} 
