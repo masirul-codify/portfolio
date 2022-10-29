@@ -322,3 +322,16 @@ position: relative;
         position:absolute;
     }
 } 
+
+
+
+
+/* CONTACT PAGE SECTION */
+.get-card{
+    background: white!important;
+    box-shadow: 5px 5px 50px #606060;
+}
+
+input[type=text]:focus {
+    border: 3px solid rgb(255, 0, 0);
+  }
