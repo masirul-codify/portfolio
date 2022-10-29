@@ -336,7 +336,9 @@ input[type=text]:focus {
     border: 3px solid rgb(255, 0, 0);
   }
 
-
+pre{
+   color: white;
+}
 
 /* <!-- --------------footer-start--------------- --> */
 footer {
@@ -346,7 +348,7 @@ footer {
 }
 
 .footer-content p {
-    color: #bbbbbb;
+    color: white;
     font-size: 15px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
