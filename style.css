@@ -335,3 +335,162 @@ position: relative;
 input[type=text]:focus {
     border: 3px solid rgb(255, 0, 0);
   }
+
+
+
+/* <!-- --------------footer-start--------------- --> */
+footer {
+    background-color: #252628;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer-content p {
+    color: #bbbbbb;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 32px 0px;
+}
+
+.footer-img img {
+    width: 70%;
+}
+
+footer h4 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-icon .fa-angle-right {
+    color: #bbbbbb;
+    font-size: 15px;
+    margin-right: 12px;
+    line-height: 35px;
+}
+
+.footer-icon a {
+    color: #bbbbbb;
+    font-size: 15px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer-icon:hover a {
+    color: white;
+}
+
+.footer-icon:hover .fa-angle-right {
+    color: white;
+}
+
+.footer-icon-top .fab {
+    color: white;
+    border-radius: 5px;
+}
+
+.footer-icon-top .fa-twitter {
+    background-color: #0e97d1;
+    padding: 10px;
+    transition: all .3s ease-out;
+}
+
+.footer-icon-top .fa-twitter:hover {
+    background-color: #108BC0;
+}
+
+.footer-icon-top .fa-facebook-f {
+    background-color: #1b4195;
+    padding: 10px 13px;
+    transition: all .3s ease-out;
+}
+
+.footer-icon-top .fa-facebook-f:hover {
+    background-color: #1C3E8A;
+}
+
+.footer-icon-top .fa-linkedin-in {
+    background-color: #0f72aa;
+    padding: 10px 12px;
+    transition: all .3s ease-out;
+}
+
+.footer-icon-top .fa-linkedin-in:hover {
+    background-color: #116A9D;
+}
+
+.footer-icon-top .fa-instagram {
+    background-color: #b41a32;
+    padding: 10px 12px;
+    transition: all .3s ease-out;
+}
+
+.footer-icon-top .fa-instagram:hover {
+    background-color: #A51B31;
+}
+
+/* ---------footer-info---------- */
+.footer-info a {
+    color: white;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    ;
+    font-weight: 700;
+}
+
+.footer-info h6 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    ;
+    font-weight: 700;
+}
+
+.footer-info p {
+    color: white;
+    opacity: 0.6;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer-info-icon {
+    color: white;
+    background: rgba(255, 255, 255, 0.132);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.footer-info {
+    background-color: black;
+    margin-top: 5%;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-info-one {
+    padding-top: 30px;
+}
+
+.footer-info-two {
+    padding-top: 30px;
+}
+
+.footer-info-three {
+    padding-top: 30px;
+}
+
+.term {
+    color: #aaaaaa;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2.5%;
+}
