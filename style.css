@@ -529,3 +529,105 @@ footer h4 {
     text-align: center;
     margin-top: 2.5%;
 }
+
+
+
+
+/*  SKILLS PROJECT CSS */
+
+
+.line-in-middle {
+  width:500px;
+  height:180px;
+  background: linear-gradient(to right, 
+                              transparent 0%, 
+                              transparent calc(50% - 0.81px), 
+                              black calc(50% - 0.8px), 
+                              black calc(50% + 0.8px), 
+                              transparent calc(50.1% + 0.81px), 
+                              transparent 100%); 
+}
+
+.hrline {
+  border-left: 2px solid rgb(247, 10, 10);
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 100px !important;
+}
+
+.mainline {
+  height: 2px;
+  background: black;
+}
+
+.submainline{
+  height: 2px;
+  background: white;
+}
+.leftline{
+  border-left: 2px solid black;
+  margin-left: 50%;
+  height: 50px;
+  top: 100px !important;
+}
+
+.rightline{
+  border-left: 2px solid black;
+  margin-left: 50%;
+  height: 50px;
+  top: 100px !important;
+}
+.sublinemain{
+  border-left: 2.5px solid white;
+  margin-left:50%;
+  height: 100px;
+  top: 100px !important;
+}
+
+
+.sublinemain1{
+  border-left: 2px solid white;
+  margin-left: 50%;
+  height: 50px;
+  top: 100px !important;
+}
+.sublinemain2{
+  border-right: 2px solid white;
+  margin-right: 50%;
+  height: 50px;
+  top: 100px !important;
+}
+.subline{
+  border-right: 2px solid white;
+  height: 50px;
+  top: 100px !important;
+}
+
+.minusmargin{
+  margin-left: -20px!important;
+}
+
+.margin{
+    margin-left: 35% !important;
+    border: 3px solid rgb(243, 0, 0);
+    font-size: small !important;
+}
+
+.skill-head{
+  border: 3px solid rgb(243, 0, 0);
+  margin: 0 auto!importanh;
+}
+.line{
+  font-size: 70px;
+  margin-bottom: 30px !important;
+}
+
+.custom-css{
+  font-size: larger;
+  color: blue;
+  margin-left: 200px;
+}
+
+/* END SKILLS PROJECT CSS */
