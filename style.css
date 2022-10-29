@@ -342,7 +342,7 @@ pre{
 
 /* <!-- --------------footer-start--------------- --> */
 footer {
-    background-color: #252628;
+    background-color: #20592e;
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -469,7 +469,7 @@ footer h4 {
 }
 
 .footer-info {
-    background-color: black;
+    background-color: rgb(45, 47, 49);
     margin-top: 5%;
     padding-bottom: 30px;
     padding-left: 30px;
