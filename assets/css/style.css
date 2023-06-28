@@ -426,6 +426,130 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+/* hero slider */
+
+#home-slide .swiper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#home-slide .swiper-slide {
+  text-align: center;
+  font-size: calc(16px + 0.390625vw);
+  background: #fff;
+}
+
+#home-slide .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit:scale-down;
+}
+
+
+/* Customize navigation arrows */
+#home-slide .swiper-button-next,
+.swiper-button-prev {
+  color: rgb(78, 117, 255);
+  margin-top:  calc(15px + 0.390625vw);
+  font-size: calc(10px + 0.390625vw);
+}
+
+/* Customize pagination bullets */
+#home-slide .swiper-pagination-bullet {
+  background-color: rgb(164, 190, 255)1);
+  opacity: 0.5;
+  width:  calc(5px + 0.390625vw);
+  height:  calc(5px + 0.390625vw);
+  margin: -15px 5px;
+}
+#home-slide .swiper-pagination-bullet-active {
+  background-color: rgb(0, 3, 171);
+}
+
+#home-slide .autoplay-progress {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  z-index: 10;
+  width: calc(30px + 0.390625vw);
+  height: calc(30px + 0.390625vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: greenyellow;
+}
+
+#home-slide .autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: greenyellow;
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+
+/*--------------------------------------------------------------
+# Icon Boxes
+--------------------------------------------------------------*/
+.icon-boxes {
+  padding-top: 0;
+  position: relative;
+  z-index: 100;
+}
+
+.icon-boxes .icon-box {
+  padding: 20px 10px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.icon-boxes .icon {
+  margin: 0 auto 20px auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.icon-boxes .icon i {
+  font-size: calc(36px + 0.390625vw);
+  line-height: 1;
+  color: #f6b024;
+}
+
+.icon-boxes .title {
+  font-weight: 700;
+  margin-bottom: calc(15px + 0.390625vw);
+  font-size: calc(18px + 0.390625vw);
+}
+
+.icon-boxes .title a {
+  color: #059e21;
+}
+
+.icon-boxes .description { 
+  font-size: calc(15px + 0.390625vw);
+  line-height: 28px;
+  margin-bottom: 0;
+  color: #777777;
+}
+ 
+
+
 #hero {
   width: 100%;
   height: 100vh;
