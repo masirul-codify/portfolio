@@ -179,7 +179,7 @@ h6 {
 #preloader:before,
 #preloader:after {
   content: "";
-  background-color: var(--color-secondary);
+  background-color: rgb(72, 85, 255);
   position: absolute;
   inset: 0;
   width: 50%;
@@ -197,7 +197,7 @@ h6 {
   position: relative;
   overflow: hidden;
   margin: auto;
-  width: 1px;
+  width: 2px;
   height: 280px;
   transition: all 0.8s ease 0s;
 }
@@ -205,10 +205,10 @@ h6 {
 #preloader .line:before {
   content: "";
   position: absolute;
-  background-color: #fff;
+  background-color: #ffffff;
   left: 0;
   top: 50%;
-  width: 1px;
+  width: 2px;
   height: 0%;
   transform: translateY(-50%);
   animation: lineincrease 1000ms ease-in-out 0s forwards;
@@ -217,10 +217,10 @@ h6 {
 #preloader .line:after {
   content: "";
   position: absolute;
-  background-color: #999;
+  background-color: #4583c9;
   left: 0;
   top: 0;
-  width: 1px;
+  width: 2px;
   height: 100%;
   transform: translateY(-100%);
   animation: linemove 1200ms linear 0s infinite;
