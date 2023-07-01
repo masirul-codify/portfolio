@@ -50,23 +50,18 @@ h6 {
 }
 
 
-.box{ 
-  padding: 15px 10px;
-  position: relative;
-  overflow: hidden;
+.box{  
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 10px 15px;
+  transition: all ease-in-out 0.3s;
   background: #fff;
-  box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
-  transition: all 0.3s ease-in-out;
-  border-radius: 15%;
 }
 
 .box:hover{
-  padding: 15px 10px;
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 5px 6px  rgb(52, 106, 255);
-  border-radius: 15%;
+  border-color: #3c36ff;
+  box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+  transform: translateY(-10px);
 }
 
 
