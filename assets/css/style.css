@@ -95,40 +95,182 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #151515;
-}
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 0px);
-  left: calc(50% - 30px);
-  border: 6px solid #0ca8f3;
-  border-top-color: #151515;
-  border-bottom-color: #151515;
+/* 
+ #loading{
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .load-container{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+ }
+
+ .load-container .text{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #606060;
+  letter-spacing: 3px;
+  font-weight:500;
+  margin-bottom: 15px;
+  display: block;
+ }
+
+ .preloader{ 
+  align-items: center;
+  display: flex;
+  gap: 6px;
+ }
+
+ .preloader .load{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: #333;
+  text-align:center;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1s linear infinite;
+  font-size: 10px;
+  color:#606060;
+
+  animation: loading 2s linear infinite;
+  animation-delay: calc(.2s * var(--i));
+  opacity: 0;
+ }
+
+@keyframes loading{
+  0% {
+    opacity: 0;
+  }  
+  
+  50% {
+    background: #f701ff;
+    color: #333;
+    opacity: 1;
+  }  
+  
+  100% {
+    background: #ffee01;
+    color: #111;
+    opacity: 1;
+  }
+} */
+
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
 }
 
-@keyframes animate-preloader {
+#preloader:before,
+#preloader:after {
+  content: "";
+  background-color: var(--color-secondary);
+  position: absolute;
+  inset: 0;
+  width: 50%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+
+#preloader:after {
+  left: auto;
+  right: 0;
+}
+
+#preloader .line {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 1px;
+  height: 280px;
+  transition: all 0.8s ease 0s;
+}
+
+#preloader .line:before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 0%;
+  transform: translateY(-50%);
+  animation: lineincrease 1000ms ease-in-out 0s forwards;
+}
+
+#preloader .line:after {
+  content: "";
+  position: absolute;
+  background-color: #999;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  transform: translateY(-100%);
+  animation: linemove 1200ms linear 0s infinite;
+  animation-delay: 2000ms;
+}
+
+#preloader.loaded .line {
+  opacity: 0;
+  height: 100% !important;
+}
+
+#preloader.loaded .line:after {
+  opacity: 0;
+}
+
+#preloader.loaded:before,
+#preloader.loaded:after {
+  animation: preloaderfinish 300ms ease-in-out 500ms forwards;
+}
+
+@keyframes lineincrease {
   0% {
-    transform: rotate(0deg);
+    height: 0%;
   }
 
   100% {
-    transform: rotate(360deg);
+    height: 100%;
   }
 }
+
+@keyframes linemove {
+  0% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes preloaderfinish {
+  0% {
+    width: 5 0%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices

@@ -5,6 +5,26 @@
             PROFESSIONAL WEB DEVELOPER
             CONTACT: 01719051890
 */
+
+
+
+
+    /**
+   * Preloader
+   */
+    const preloader = document.querySelector('#preloader');
+    if (preloader) {
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          preloader.classList.add('loaded');
+        }, 1000);
+        setTimeout(() => {
+          preloader.remove();
+        }, 2000);
+      });
+    }
+
+
 (function() {
   "use strict";
 
@@ -158,12 +178,14 @@
   /**
    * Preloader
    */
-  let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove()
-    });
-  }
+ 
+  
+  // let loading = select('#loading');
+  // if (loading) {
+  //   window.addEventListener('load', () => {
+  //     loading.remove()
+  //   });
+  // }
 
   /**
    * Clients Slider
